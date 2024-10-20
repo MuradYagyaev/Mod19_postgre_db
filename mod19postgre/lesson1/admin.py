@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import *
 
 # Register your models here.
+admin.site.register(Buyer)
+admin.site.register(Game)
+admin.site.register(Test_table)
+admin.site.register(Test_table2)
